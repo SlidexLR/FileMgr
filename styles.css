@@ -1,0 +1,151 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0; /* Light text color for dark background */
+    background-color: #121212; /* Dark background color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    color: #e0e0e0; /* Light text color */
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #61dafb; /* Light blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4a90e2; /* Slightly darker blue on hover */
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+#hero {
+    background-color: #333; /* Dark background for hero section */
+    color: #e0e0e0; /* Light text color */
+    padding: 2em 1em;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    margin-bottom: 1em;
+}
+
+#hero .button {
+    background-color: #61dafb; /* Light blue button */
+    color: #121212; /* Dark text color for button */
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#hero .button:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #4a90e2; /* Darker blue on hover */
+}
+
+#features {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: #1e1e1e; /* Dark background for features section */
+}
+
+#features h2 {
+    margin-bottom: 1em;
+}
+
+.feature {
+    margin: 1em 0;
+    transition: transform 0.3s; /* Transition for zoom effect */
+}
+
+.feature:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.feature h3 {
+    margin-bottom: 0.5em;
+}
+
+#commands {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+#commands ul {
+    list-style: none;
+    padding: 0;
+}
+
+#commands ul li {
+    margin: 0.5em 0;
+}
+
+#invite {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+#invite p {
+    margin-bottom: 1em;
+}
+
+#invite .button {
+    background-color: #61dafb; /* Light blue button */
+    color: #121212; /* Dark text color for button */
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#invite .button:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    background-color: #4a90e2; /* Darker blue on hover */
+}
+
+#contact {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #1e1e1e; /* Dark background for footer */
+    color: #e0e0e0; /* Light text color */
+    padding: 1em;
+    text-align: center;
+    font-size: 0.8em;
+}
